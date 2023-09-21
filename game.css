@@ -1,0 +1,93 @@
+/*
+grey:eaefd0
+darkg:162900
+medblu:5e7726
+abc93a
+80a834
+*/
+
+body{
+	background-color:#eaefd0;
+}
+.center{
+	margin:auto;
+	width:99%;
+	/*border:1px solid #162900;*/
+	line-height:%150;
+	color:#162900;
+}
+
+table,th,td{
+        border:0px;
+}
+table{
+	width:100%;
+        border-collapse:collapse;
+}
+th{
+        background-color:#5e7726;
+        color:#abc93a;
+}
+tr:nth-child(even){
+	background-color:#abc93a;
+}
+tr:nth-child(odd){
+	background-color:#80a834;
+}
+.stats tr{
+	background-color:#abc93a;
+	text-align:left;
+	color:#5e7726;
+}
+.stats td:nth-child(even){
+	color:#eaefd8;
+}
+.stats td:nth-child(odd){
+	text-align:right;
+}
+.cent {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
+.highlight td{
+	color:#eaefd8;
+}
+.blocky a{
+	text-align:center;
+	display:block;
+}
+.equipRow th{
+	text-align:left;
+	color:#eaefd0;
+}
+tr.codelist{
+	text-align:left;
+}
+.registration tr > td:first-child{
+	text-align:right;
+}
+
+th a:visited, th a:link{
+	color:#abc93a;
+}
+th a:hover, th a:active{
+	color:#162900;
+}
+td{
+        color:#162900;
+}
+td.img{
+	text-align:center;
+        background-color:#eaefd0;
+}
+a{
+        text-decoration:none;
+}
+a:link {color:#162900;}
+a:visited {color:#162900;}
+a:hover {color:#1629aa;}
+a:active {color:#5e7726;}
+
+
